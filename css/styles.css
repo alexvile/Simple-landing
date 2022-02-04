@@ -70,6 +70,11 @@ body {
   line-height: 1.22;
   color: var(--light-color);
 }
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+  color: var(--primary-text-color);
+}
 .current {
   color: var(--primary-text-color);
 }
@@ -96,6 +101,7 @@ body {
   line-height: 1.22;
 }
 .change-lang {
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.25;
   color: var(--light-color);
