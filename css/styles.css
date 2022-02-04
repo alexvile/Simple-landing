@@ -53,6 +53,10 @@ body {
   padding-right: 18px;
   margin: 0 auto;
 }
+.section-desc {
+  font-size: 18px;
+  line-height: 1.22;
+}
 /* header */
 .nav {
   display: flex;
@@ -97,8 +101,6 @@ body {
 }
 .main-desc {
   max-width: 156px;
-  font-size: 18px;
-  line-height: 1.22;
 }
 .change-lang {
   font-weight: 700;
@@ -128,10 +130,7 @@ body {
 .about-title {
   margin-bottom: 30px;
 }
-.about-desc {
-  font-size: 18px;
-  line-height: 1.22;
-}
+
 .about-desc:not(:last-child) {
   margin-bottom: 44px;
 }
@@ -146,8 +145,6 @@ body {
 }
 .skills-desc {
   margin-bottom: 84px;
-  font-size: 18px;
-  line-height: 1.22;
 }
 .skills-cards {
   display: flex;
@@ -229,4 +226,13 @@ body {
 .portf-link:focus,
 .portf-link:active {
   opacity: 0.6;
+}
+/* footer */
+.footer {
+  padding-top: 114px;
+  padding-bottom: 123px;
+  text-align: center;
+}
+.footer-title {
+  margin-bottom: 22px;
 }
