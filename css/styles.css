@@ -16,6 +16,13 @@
   font-weight: 700;
   font-style: normal;
 }
+:root {
+  --primary-text-color: #070707;
+  --light-color: #828282;
+  --bg-light-color: #ffffff;
+  --bg-dark-color: #f6f6f6;
+}
+
 li {
   list-style: none;
 }
@@ -37,7 +44,7 @@ body {
 .nav {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #828282;
+  border-bottom: 1px solid var(--light-color);
 }
 
 .nav-link {
