@@ -203,3 +203,30 @@ body {
 .illustrator-ico::after {
   background-image: url(../img/stars-3.png);
 }
+/* portfolio */
+.portf-sec {
+  padding-top: 113px;
+  padding-bottom: 96px;
+  background-color: var(--bg-dark-color);
+  text-align: center;
+}
+.portf-title {
+  margin-bottom: 70px;
+}
+.portf-img {
+  margin-bottom: 45px;
+}
+.portf-item:not(:last-child) {
+  margin-bottom: 100px;
+}
+.portf-link {
+  font-size: 18px;
+  line-height: 1.22;
+  text-decoration-line: underline;
+  color: inherit;
+}
+.portf-link:hover,
+.portf-link:focus,
+.portf-link:active {
+  opacity: 0.6;
+}
