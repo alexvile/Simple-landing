@@ -135,3 +135,71 @@ body {
 .about-desc:not(:last-child) {
   margin-bottom: 44px;
 }
+/* skills section */
+.skills-sec {
+  padding-top: 91px;
+  padding-bottom: 110px;
+  text-align: center;
+}
+.skills-title {
+  margin-bottom: 70px;
+}
+.skills-desc {
+  margin-bottom: 84px;
+  font-size: 18px;
+  line-height: 1.22;
+}
+.skills-cards {
+  display: flex;
+  justify-content: space-between;
+}
+.skills-card-desc {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.21;
+
+  color: var(--light-color);
+}
+
+.skills-card::before {
+  content: "";
+  display: inline-block;
+  width: 89px;
+  height: 88px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 23px;
+}
+.photoshop-ico::before {
+  background-image: url(../img/photoshop.jpg);
+}
+.illustrator-ico::before {
+  background-image: url(../img/illustrator.jpg);
+}
+.aftereff-ico::before {
+  background-image: url(../img/after-effects.jpg);
+}
+.figma-ico::before {
+  width: 59px;
+  height: 90px;
+  background-image: url(../img/figma.png);
+}
+
+.skills-card::after {
+  content: "";
+  display: inline-block;
+  width: 167px;
+  height: 26px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 40px;
+}
+
+.photoshop-ico::after,
+.aftereff-ico::after,
+.figma-ico::after {
+  background-image: url(../img/stars-4.png);
+}
+.illustrator-ico::after {
+  background-image: url(../img/stars-3.png);
+}
