@@ -22,7 +22,7 @@
   --bg-light-color: #ffffff;
   --bg-dark-color: #f6f6f6;
 }
-
+/* reset styles */
 li {
   list-style: none;
 }
@@ -33,9 +33,18 @@ ul {
   margin: 0;
   padding: 0;
 }
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+/* main styles */
 
 body {
   font-family: "Gilroy";
+  font-weight: 500;
+  color: var(--primary-text-color);
 }
 .container {
   max-width: 944px;
@@ -59,5 +68,33 @@ body {
   color: var(--light-color);
 }
 .current {
+  color: var(--primary-text-color);
+}
+/* hero */
+.hero-section {
+  padding-bottom: 105px;
+}
+.hero-desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.main-title {
+  max-width: 124px;
+  font-weight: 700;
+  font-size: 47px;
+  line-height: 1.26;
+}
+.main-desc {
+  max-width: 156px;
+  font-size: 18px;
+  line-height: 1.22;
+}
+.change-lang {
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--light-color);
+}
+.change-lang-en {
   color: var(--primary-text-color);
 }
