@@ -16,6 +16,32 @@
   font-weight: 700;
   font-style: normal;
 }
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Gilroy";
+}
+.container {
+  max-width: 944px;
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #828282;
+}
+
+.nav-link {
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
