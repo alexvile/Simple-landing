@@ -236,3 +236,61 @@ body {
 .footer-title {
   margin-bottom: 22px;
 }
+.footer-desc {
+  max-width: 275px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.button {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.22;
+  color: var(--bg-light-color);
+  text-align: center;
+  background-color: var(--primary-text-color);
+  padding: 7px 30px;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 87px;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  opacity: 0.7;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+  max-width: 343px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-link::before {
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.linkedin-ico::before {
+  background-image: url(../img/linkedin.svg);
+}
+.instagramm-ico::before {
+  background-image: url(../img/instagramm.svg);
+}
+.behance-ico::before {
+  background-image: url(../img/behance.svg);
+}
+.dribble-ico::before {
+  background-image: url(../img/dribble.svg);
+}
+.footer-follow {
+  font-size: 14px;
+  line-height: 1.21;
+  color: var(--light-color);
+}
