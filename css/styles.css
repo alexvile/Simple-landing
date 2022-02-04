@@ -36,7 +36,8 @@ ul {
 h1,
 h2,
 h3,
-h4 {
+h4,
+p {
   margin: 0;
 }
 /* main styles */
@@ -97,4 +98,28 @@ body {
 }
 .change-lang-en {
   color: var(--primary-text-color);
+}
+/* about me section */
+.about-section {
+  background-color: var(--bg-dark-color);
+  padding-top: 110px;
+  padding-bottom: 110px;
+  text-align: center;
+}
+.container-about {
+  max-width: 486px;
+}
+.section-title {
+  font-size: 34px;
+  line-height: 1.24;
+}
+.about-title {
+  margin-bottom: 30px;
+}
+.about-desc {
+  font-size: 18px;
+  line-height: 1.22;
+}
+.about-desc:not(:last-child) {
+  margin-bottom: 44px;
 }
