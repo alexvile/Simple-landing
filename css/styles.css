@@ -48,7 +48,9 @@ body {
   color: var(--primary-text-color);
 }
 .container {
-  max-width: 944px;
+  max-width: 980px;
+  padding-left: 18px;
+  padding-right: 18px;
   margin: 0 auto;
 }
 /* header */
@@ -107,7 +109,9 @@ body {
   text-align: center;
 }
 .container-about {
-  max-width: 486px;
+  max-width: 506px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .section-title {
   font-size: 34px;
