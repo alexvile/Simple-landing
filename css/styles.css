@@ -41,6 +41,7 @@ body {
   max-width: 944px;
   margin: 0 auto;
 }
+/* header */
 .nav {
   display: flex;
   justify-content: space-between;
@@ -51,4 +52,12 @@ body {
   display: block;
   padding-top: 30px;
   padding-bottom: 30px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.22;
+  color: var(--light-color);
+}
+.current {
+  color: var(--primary-text-color);
 }
